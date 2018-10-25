@@ -20,3 +20,13 @@ function johnLennonFacts(facts) {
   return outputFacts;
 }
 
+function iLoveTheBeatles(n) {
+  const testArray = [];
+
+  do {
+    testArray.push('I love the Beatles!');
+    n++;
+  } while (n < 15);
+
+  return testArray;
+}
